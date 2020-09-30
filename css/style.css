@@ -13,6 +13,11 @@ body {
     width: 27rem;
 }
 
+.whole {
+    display: flex;
+    flex-direction: column;
+}
+
 .line {
     height: 0.4rem;
     width: 2rem;
@@ -44,4 +49,48 @@ h1 {
     padding-top: 6rem;
     display: flex;
     justify-content: space-around;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.no1 {
+    font-family: sans-serif;
+}
+
+.p2 {
+    padding-left: 2.5rem;
+    color: #bfbab4;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.head1 {
+    padding-left: 2.5rem;
+    font-family: sans-serif;
+}
+
+.p3 {
+    margin-left: 1rem;
+    color: #bfbab4;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.head2 {
+    margin-left: 1rem;
+    font-family: sans-serif;
+}
+
+.p4 {
+    margin-right: 8rem;
+    color: #bfbab4;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
 }
