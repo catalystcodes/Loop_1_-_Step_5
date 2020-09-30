@@ -8,9 +8,10 @@ body {
 .container {
     background-color: white;
     /* margin: 6rem auto; */
-    height: 30rem;
     margin: 12rem 30rem;
     width: 27rem;
+    height: 30rem;
+    border-radius: 5px;
 }
 
 .whole {
@@ -46,7 +47,7 @@ h1 {
 }
 
 .head {
-    padding-top: 6rem;
+    padding-top: 3rem;
     display: flex;
     justify-content: space-around;
 }
@@ -54,7 +55,9 @@ h1 {
 .middle {
     display: flex;
     justify-content: space-between;
-    padding-top: 3.5rem;
+    padding-top: 2rem;
+    line-height: normal;
+    /* padding-bottom: rem; */
 }
 
 .no1 {
@@ -93,4 +96,36 @@ h1 {
     font-family: sans-serif;
     font-weight: 600;
     font-size: 0.7rem;
+}
+
+.letter {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-justify: space-between;
+    justify-items: space-between;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+    padding-top: 0.4rem;
+    /* line-height: 2rem; */
+}
+
+p {
+    margin-top: 1rem;
+    color: #bfbab4;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+
+.image {
+    margin-top: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 2.7rem;
 }
